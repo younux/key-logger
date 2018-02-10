@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/Base64.cpp">
+			<Option target="klogger"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/Helper.cpp">
+			<Option target="klogger"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyConstants.cpp">
+			<Option target="klogger"/>
+		</Unit>
 		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/main.cpp">
 			<Option target="klogger"/>
 		</Unit>

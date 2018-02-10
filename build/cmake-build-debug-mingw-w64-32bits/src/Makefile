@@ -124,6 +124,87 @@ klogger/fast:
 	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/build
 .PHONY : klogger/fast
 
+Base64.obj: Base64.cpp.obj
+
+.PHONY : Base64.obj
+
+# target to build an object file
+Base64.cpp.obj:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Base64.cpp.obj
+.PHONY : Base64.cpp.obj
+
+Base64.i: Base64.cpp.i
+
+.PHONY : Base64.i
+
+# target to preprocess a source file
+Base64.cpp.i:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Base64.cpp.i
+.PHONY : Base64.cpp.i
+
+Base64.s: Base64.cpp.s
+
+.PHONY : Base64.s
+
+# target to generate assembly for a file
+Base64.cpp.s:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Base64.cpp.s
+.PHONY : Base64.cpp.s
+
+Helper.obj: Helper.cpp.obj
+
+.PHONY : Helper.obj
+
+# target to build an object file
+Helper.cpp.obj:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Helper.cpp.obj
+.PHONY : Helper.cpp.obj
+
+Helper.i: Helper.cpp.i
+
+.PHONY : Helper.i
+
+# target to preprocess a source file
+Helper.cpp.i:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Helper.cpp.i
+.PHONY : Helper.cpp.i
+
+Helper.s: Helper.cpp.s
+
+.PHONY : Helper.s
+
+# target to generate assembly for a file
+Helper.cpp.s:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Helper.cpp.s
+.PHONY : Helper.cpp.s
+
+KeyConstants.obj: KeyConstants.cpp.obj
+
+.PHONY : KeyConstants.obj
+
+# target to build an object file
+KeyConstants.cpp.obj:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj
+.PHONY : KeyConstants.cpp.obj
+
+KeyConstants.i: KeyConstants.cpp.i
+
+.PHONY : KeyConstants.i
+
+# target to preprocess a source file
+KeyConstants.cpp.i:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyConstants.cpp.i
+.PHONY : KeyConstants.cpp.i
+
+KeyConstants.s: KeyConstants.cpp.s
+
+.PHONY : KeyConstants.s
+
+# target to generate assembly for a file
+KeyConstants.cpp.s:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyConstants.cpp.s
+.PHONY : KeyConstants.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +241,15 @@ help:
 	@echo ... klogger
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Base64.obj
+	@echo ... Base64.i
+	@echo ... Base64.s
+	@echo ... Helper.obj
+	@echo ... Helper.i
+	@echo ... Helper.s
+	@echo ... KeyConstants.obj
+	@echo ... KeyConstants.i
+	@echo ... KeyConstants.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

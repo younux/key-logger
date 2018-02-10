@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/klogger.dir/main.cpp.obj"
+  "CMakeFiles/klogger.dir/KeyConstants.cpp.obj"
+  "CMakeFiles/klogger.dir/Helper.cpp.obj"
+  "CMakeFiles/klogger.dir/Base64.cpp.obj"
   "klogger.pdb"
   "klogger.exe"
   "klogger.exe.manifest"

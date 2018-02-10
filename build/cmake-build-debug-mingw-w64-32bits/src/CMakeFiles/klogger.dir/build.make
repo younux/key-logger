@@ -81,19 +81,100 @@ src/CMakeFiles/klogger.dir/main.cpp.obj.provides: src/CMakeFiles/klogger.dir/mai
 src/CMakeFiles/klogger.dir/main.cpp.obj.provides.build: src/CMakeFiles/klogger.dir/main.cpp.obj
 
 
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj: src/CMakeFiles/klogger.dir/flags.make
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj: src/CMakeFiles/klogger.dir/includes_CXX.rsp
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj: ../../src/KeyConstants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\klogger.dir\KeyConstants.cpp.obj -c C:\Users\younes.benhoumich\Documents\Projects\kl\src\KeyConstants.cpp
+
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/klogger.dir/KeyConstants.cpp.i"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\younes.benhoumich\Documents\Projects\kl\src\KeyConstants.cpp > CMakeFiles\klogger.dir\KeyConstants.cpp.i
+
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/klogger.dir/KeyConstants.cpp.s"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\younes.benhoumich\Documents\Projects\kl\src\KeyConstants.cpp -o CMakeFiles\klogger.dir\KeyConstants.cpp.s
+
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.requires
+
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.provides: src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.provides
+
+src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.provides.build: src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj
+
+
+src/CMakeFiles/klogger.dir/Helper.cpp.obj: src/CMakeFiles/klogger.dir/flags.make
+src/CMakeFiles/klogger.dir/Helper.cpp.obj: src/CMakeFiles/klogger.dir/includes_CXX.rsp
+src/CMakeFiles/klogger.dir/Helper.cpp.obj: ../../src/Helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/klogger.dir/Helper.cpp.obj"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\klogger.dir\Helper.cpp.obj -c C:\Users\younes.benhoumich\Documents\Projects\kl\src\Helper.cpp
+
+src/CMakeFiles/klogger.dir/Helper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/klogger.dir/Helper.cpp.i"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\younes.benhoumich\Documents\Projects\kl\src\Helper.cpp > CMakeFiles\klogger.dir\Helper.cpp.i
+
+src/CMakeFiles/klogger.dir/Helper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/klogger.dir/Helper.cpp.s"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\younes.benhoumich\Documents\Projects\kl\src\Helper.cpp -o CMakeFiles\klogger.dir\Helper.cpp.s
+
+src/CMakeFiles/klogger.dir/Helper.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/klogger.dir/Helper.cpp.obj.requires
+
+src/CMakeFiles/klogger.dir/Helper.cpp.obj.provides: src/CMakeFiles/klogger.dir/Helper.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Helper.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/klogger.dir/Helper.cpp.obj.provides
+
+src/CMakeFiles/klogger.dir/Helper.cpp.obj.provides.build: src/CMakeFiles/klogger.dir/Helper.cpp.obj
+
+
+src/CMakeFiles/klogger.dir/Base64.cpp.obj: src/CMakeFiles/klogger.dir/flags.make
+src/CMakeFiles/klogger.dir/Base64.cpp.obj: src/CMakeFiles/klogger.dir/includes_CXX.rsp
+src/CMakeFiles/klogger.dir/Base64.cpp.obj: ../../src/Base64.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/klogger.dir/Base64.cpp.obj"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\klogger.dir\Base64.cpp.obj -c C:\Users\younes.benhoumich\Documents\Projects\kl\src\Base64.cpp
+
+src/CMakeFiles/klogger.dir/Base64.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/klogger.dir/Base64.cpp.i"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\younes.benhoumich\Documents\Projects\kl\src\Base64.cpp > CMakeFiles\klogger.dir\Base64.cpp.i
+
+src/CMakeFiles/klogger.dir/Base64.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/klogger.dir/Base64.cpp.s"
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && C:\mingw-w64-32-bits\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\younes.benhoumich\Documents\Projects\kl\src\Base64.cpp -o CMakeFiles\klogger.dir\Base64.cpp.s
+
+src/CMakeFiles/klogger.dir/Base64.cpp.obj.requires:
+
+.PHONY : src/CMakeFiles/klogger.dir/Base64.cpp.obj.requires
+
+src/CMakeFiles/klogger.dir/Base64.cpp.obj.provides: src/CMakeFiles/klogger.dir/Base64.cpp.obj.requires
+	$(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Base64.cpp.obj.provides.build
+.PHONY : src/CMakeFiles/klogger.dir/Base64.cpp.obj.provides
+
+src/CMakeFiles/klogger.dir/Base64.cpp.obj.provides.build: src/CMakeFiles/klogger.dir/Base64.cpp.obj
+
+
 # Object files for target klogger
 klogger_OBJECTS = \
-"CMakeFiles/klogger.dir/main.cpp.obj"
+"CMakeFiles/klogger.dir/main.cpp.obj" \
+"CMakeFiles/klogger.dir/KeyConstants.cpp.obj" \
+"CMakeFiles/klogger.dir/Helper.cpp.obj" \
+"CMakeFiles/klogger.dir/Base64.cpp.obj"
 
 # External object files for target klogger
 klogger_EXTERNAL_OBJECTS =
 
 src/klogger.exe: src/CMakeFiles/klogger.dir/main.cpp.obj
+src/klogger.exe: src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj
+src/klogger.exe: src/CMakeFiles/klogger.dir/Helper.cpp.obj
+src/klogger.exe: src/CMakeFiles/klogger.dir/Base64.cpp.obj
 src/klogger.exe: src/CMakeFiles/klogger.dir/build.make
 src/klogger.exe: src/CMakeFiles/klogger.dir/linklibs.rsp
 src/klogger.exe: src/CMakeFiles/klogger.dir/objects1.rsp
 src/klogger.exe: src/CMakeFiles/klogger.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable klogger.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable klogger.exe"
 	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\klogger.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -102,6 +183,9 @@ src/CMakeFiles/klogger.dir/build: src/klogger.exe
 .PHONY : src/CMakeFiles/klogger.dir/build
 
 src/CMakeFiles/klogger.dir/requires: src/CMakeFiles/klogger.dir/main.cpp.obj.requires
+src/CMakeFiles/klogger.dir/requires: src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj.requires
+src/CMakeFiles/klogger.dir/requires: src/CMakeFiles/klogger.dir/Helper.cpp.obj.requires
+src/CMakeFiles/klogger.dir/requires: src/CMakeFiles/klogger.dir/Base64.cpp.obj.requires
 
 .PHONY : src/CMakeFiles/klogger.dir/requires
 
