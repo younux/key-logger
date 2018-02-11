@@ -18,4 +18,6 @@ namespace Base64{
 
     std::string EncryptB64(std::string s);
 
+    const std::string BASE64_CODES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+
 }

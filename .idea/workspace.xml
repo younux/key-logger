@@ -16,14 +16,23 @@
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/CMakeFiles/Makefile2" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/klogger.cbp" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/klogger.cbp" />
+      <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/CXX.includecache" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/CXX.includecache" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/DependInfo.cmake" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/build.make" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/build.make" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/cmake_clean.cmake" />
+      <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/depend.internal" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/depend.make" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/main.cpp.obj" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/main.cpp.obj" />
+      <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/objects.a" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/objects.a" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/objects1.rsp" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/objects1.rsp" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/progress.make" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/klogger.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/Makefile" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/Makefile" />
+      <change beforePath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/klogger.exe" afterPath="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/src/klogger.exe" />
+      <change beforePath="$PROJECT_DIR$/include/Base64.hpp" afterPath="$PROJECT_DIR$/include/Base64.hpp" />
+      <change beforePath="$PROJECT_DIR$/src/Base64.cpp" afterPath="$PROJECT_DIR$/src/Base64.cpp" />
       <change beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/build/cmake-build-debug-mingw-w64-32bits/" />
@@ -40,8 +49,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+            <state relative-caret-position="0">
+              <caret line="2" column="88" lean-forward="false" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -50,67 +59,18 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyConstants.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/KeyConstants.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="e#68#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyConstants.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/KeyConstants.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Helper.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Helper.hpp">
+      <file leaf-file-name="Timer.hpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/include/Timer.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="e#68#84#0" expanded="true" />
-                <element signature="e#175#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Helper.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Helper.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="e#111#120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Base64.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/Base64.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding>
                 <element signature="e#68#85#0" expanded="true" />
               </folding>
@@ -118,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base64.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Base64.cpp">
+      <file leaf-file-name="Timer.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Timer.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -133,6 +93,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>helper</find>
+      <find>RepeatCount</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -143,7 +104,6 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/KeyConstants.cpp" />
         <option value="$PROJECT_DIR$/include/KeyConstants.hpp" />
@@ -151,6 +111,11 @@
         <option value="$PROJECT_DIR$/include/Helper.hpp" />
         <option value="$PROJECT_DIR$/include/Base64.hpp" />
         <option value="$PROJECT_DIR$/src/Base64.cpp" />
+        <option value="$PROJECT_DIR$/include/IO.hpp" />
+        <option value="$PROJECT_DIR$/src/IO.cpp" />
+        <option value="$PROJECT_DIR$/include/Timer.hpp" />
+        <option value="$PROJECT_DIR$/src/Timer.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
       </list>
     </option>
   </component>
@@ -160,7 +125,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="277" />
     <option name="y" value="-12" />
     <option name="width" value="767" />
@@ -195,11 +160,6 @@
               <item name="klogger" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="kl" type="462c0819:PsiDirectoryNode" />
               <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="klogger" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="kl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,17 +220,19 @@
       <updated>1517674786099</updated>
       <workItem from="1517674788606" duration="2757000" />
       <workItem from="1518289904460" duration="7442000" />
+      <workItem from="1518358747659" duration="7514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10199000" />
+    <option name="totallyTimeSpent" value="17713000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -280,7 +242,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -302,6 +263,79 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/KeyConstants.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#68#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/KeyConstants.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Helper.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding>
+            <element signature="e#68#84#0" expanded="false" />
+            <element signature="e#175#184#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helper.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="e#111#120#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Base64.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <folding>
+            <element signature="e#68#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Base64.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -312,9 +346,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -362,34 +394,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="88" lean-forward="false" selection-start-line="7" selection-start-column="88" selection-end-line="7" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="71" lean-forward="false" selection-start-line="2" selection-start-column="71" selection-end-line="2" selection-end-column="71" />
+        <state relative-caret-position="0">
+          <caret line="2" column="88" lean-forward="false" selection-start-line="2" selection-start-column="88" selection-end-line="2" selection-end-column="88" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Base64.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="15" column="35" lean-forward="false" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#759#768#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/IO.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#68#85#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/include/KeyConstants.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="187">
           <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
-            <element signature="e#68#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#68#85#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -404,21 +453,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/include/Helper.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="51">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="e#68#84#0" expanded="true" />
-            <element signature="e#175#184#0" expanded="true" />
+            <element signature="e#68#84#0" expanded="false" />
+            <element signature="e#175#184#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Helper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="-671">
           <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <element signature="e#111#120#0" expanded="true" />
+            <element signature="e#111#120#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -426,18 +475,36 @@
     <entry file="file://$PROJECT_DIR$/include/Base64.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#68#85#0" expanded="true" />
+            <element signature="e#68#85#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Base64.cpp">
+    <entry file="file://$PROJECT_DIR$/src/Timer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/Timer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="e#68#85#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

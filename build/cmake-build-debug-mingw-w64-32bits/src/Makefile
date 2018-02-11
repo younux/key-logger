@@ -178,6 +178,33 @@ Helper.cpp.s:
 	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Helper.cpp.s
 .PHONY : Helper.cpp.s
 
+IO.obj: IO.cpp.obj
+
+.PHONY : IO.obj
+
+# target to build an object file
+IO.cpp.obj:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/IO.cpp.obj
+.PHONY : IO.cpp.obj
+
+IO.i: IO.cpp.i
+
+.PHONY : IO.i
+
+# target to preprocess a source file
+IO.cpp.i:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/IO.cpp.i
+.PHONY : IO.cpp.i
+
+IO.s: IO.cpp.s
+
+.PHONY : IO.s
+
+# target to generate assembly for a file
+IO.cpp.s:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/IO.cpp.s
+.PHONY : IO.cpp.s
+
 KeyConstants.obj: KeyConstants.cpp.obj
 
 .PHONY : KeyConstants.obj
@@ -204,6 +231,33 @@ KeyConstants.s: KeyConstants.cpp.s
 KeyConstants.cpp.s:
 	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyConstants.cpp.s
 .PHONY : KeyConstants.cpp.s
+
+Timer.obj: Timer.cpp.obj
+
+.PHONY : Timer.obj
+
+# target to build an object file
+Timer.cpp.obj:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Timer.cpp.obj
+.PHONY : Timer.cpp.obj
+
+Timer.i: Timer.cpp.i
+
+.PHONY : Timer.i
+
+# target to preprocess a source file
+Timer.cpp.i:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Timer.cpp.i
+.PHONY : Timer.cpp.i
+
+Timer.s: Timer.cpp.s
+
+.PHONY : Timer.s
+
+# target to generate assembly for a file
+Timer.cpp.s:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/Timer.cpp.s
+.PHONY : Timer.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -247,9 +301,15 @@ help:
 	@echo ... Helper.obj
 	@echo ... Helper.i
 	@echo ... Helper.s
+	@echo ... IO.obj
+	@echo ... IO.i
+	@echo ... IO.s
 	@echo ... KeyConstants.obj
 	@echo ... KeyConstants.i
 	@echo ... KeyConstants.s
+	@echo ... Timer.obj
+	@echo ... Timer.i
+	@echo ... Timer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
