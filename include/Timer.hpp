@@ -9,22 +9,11 @@
 #include <functional>
 
 class Timer {
-    std::thread Thread;
-    bool Alive = false;
-    long CallNumber = -1L;
-    long repeat_count = -1L;
-    std::chrono::milliseconds interval = std::chrono::milliseconds(0);
-    std::function<void(void)> funct = nullptr;
-
-    void SleepAndRun();
-
-    void ThreadFunc();
-
 public:
     static const long Infinite = -1L;
     Timer() {};
-    Timer(std::function<void(void)> &f);
-    Timer(std::function<void(void)> &f, const unsigned long &i, const long repeat = Timer::Infinite);
+    Timer(const std::function<void(void)> &f);
+    Timer(const std::function<void(void)> &f, const unsigned long &i, const long repeat = Timer::Infinite);
 
     void Start(bool async=true);
     void Stop();
@@ -43,4 +32,17 @@ public:
     unsigned long Interval() const ;
 
     const std::function<void(void)>& Function() const;
+
+private:
+
+    std::thread Thread;
+    bool Alive = false;
+    long CallNumber = -1L;
+    long repeat_count = -1L;
+    std::chrono::milliseconds interval = std::chrono::milliseconds(0);
+    std::function<void(void)> funct = nullptr;
+
+    void SleepAndRun();
+
+    void ThreadFunc();
 };

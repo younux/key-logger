@@ -11,7 +11,13 @@
 
 namespace Helper {
 
-    template <class T> std::string ToString(const T&);
+    template <class T> std::string ToString(const T &e){
+        std::ostringstream s;
+        s << e;
+        return s.str();
+    }
+
+    void WriteAppLog(const std::string &s);
 
     struct DateTime{
         DateTime();
@@ -31,6 +37,4 @@ namespace Helper {
         int M;
         int S;
     };
-
-    void WriteAppLog(const std::string &s);
 }

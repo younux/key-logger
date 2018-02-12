@@ -12,6 +12,8 @@ vector
 string
 -
 
+../.././include/DEFINITIONS.hpp
+
 ../.././include/Helper.hpp
 ctime
 -
@@ -31,6 +33,8 @@ fstream
 -
 windows.h
 -
+DEFINITIONS.hpp
+../.././include/DEFINITIONS.hpp
 Helper.hpp
 ../.././include/Helper.hpp
 Base64.hpp
@@ -41,6 +45,30 @@ string
 -
 map
 -
+
+../.././include/KeyboardHook.hpp
+iostream
+-
+fstream
+-
+windows.h
+-
+KeyConstants.hpp
+../.././include/KeyConstants.hpp
+SendMail.hpp
+../.././include/SendMail.hpp
+
+../.././include/SendMail.hpp
+string
+-
+vector
+-
+windows.h
+-
+IO.hpp
+../.././include/IO.hpp
+Timer.hpp
+../.././include/Timer.hpp
 
 ../.././include/Timer.hpp
 thread
@@ -53,6 +81,8 @@ functional
 C:/Users/younes.benhoumich/Documents/Projects/kl/src/Base64.cpp
 Base64.hpp
 C:/Users/younes.benhoumich/Documents/Projects/kl/src/Base64.hpp
+DEFINITIONS.hpp
+C:/Users/younes.benhoumich/Documents/Projects/kl/src/DEFINITIONS.hpp
 
 C:/Users/younes.benhoumich/Documents/Projects/kl/src/Helper.cpp
 Helper.hpp
@@ -66,6 +96,14 @@ C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyConstants.cpp
 KeyConstants.hpp
 C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyConstants.hpp
 
+C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyboardHook.cpp
+KeyboardHook.hpp
+C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyboardHook.hpp
+
+C:/Users/younes.benhoumich/Documents/Projects/kl/src/SendMail.cpp
+SendMail.hpp
+C:/Users/younes.benhoumich/Documents/Projects/kl/src/SendMail.hpp
+
 C:/Users/younes.benhoumich/Documents/Projects/kl/src/Timer.cpp
 Timer.hpp
 C:/Users/younes.benhoumich/Documents/Projects/kl/src/Timer.hpp
@@ -75,14 +113,6 @@ iostream
 -
 windows.h
 -
-Helper.hpp
-C:/Users/younes.benhoumich/Documents/Projects/kl/src/Helper.hpp
-Base64.hpp
-C:/Users/younes.benhoumich/Documents/Projects/kl/src/Base64.hpp
-KeyConstants.hpp
-C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyConstants.hpp
-IO.hpp
-C:/Users/younes.benhoumich/Documents/Projects/kl/src/IO.hpp
-Timer.hpp
-C:/Users/younes.benhoumich/Documents/Projects/kl/src/Timer.hpp
+KeyboardHook.hpp
+C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyboardHook.hpp
 

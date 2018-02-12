@@ -232,6 +232,60 @@ KeyConstants.cpp.s:
 	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyConstants.cpp.s
 .PHONY : KeyConstants.cpp.s
 
+KeyboardHook.obj: KeyboardHook.cpp.obj
+
+.PHONY : KeyboardHook.obj
+
+# target to build an object file
+KeyboardHook.cpp.obj:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyboardHook.cpp.obj
+.PHONY : KeyboardHook.cpp.obj
+
+KeyboardHook.i: KeyboardHook.cpp.i
+
+.PHONY : KeyboardHook.i
+
+# target to preprocess a source file
+KeyboardHook.cpp.i:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyboardHook.cpp.i
+.PHONY : KeyboardHook.cpp.i
+
+KeyboardHook.s: KeyboardHook.cpp.s
+
+.PHONY : KeyboardHook.s
+
+# target to generate assembly for a file
+KeyboardHook.cpp.s:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/KeyboardHook.cpp.s
+.PHONY : KeyboardHook.cpp.s
+
+SendMail.obj: SendMail.cpp.obj
+
+.PHONY : SendMail.obj
+
+# target to build an object file
+SendMail.cpp.obj:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/SendMail.cpp.obj
+.PHONY : SendMail.cpp.obj
+
+SendMail.i: SendMail.cpp.i
+
+.PHONY : SendMail.i
+
+# target to preprocess a source file
+SendMail.cpp.i:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/SendMail.cpp.i
+.PHONY : SendMail.cpp.i
+
+SendMail.s: SendMail.cpp.s
+
+.PHONY : SendMail.s
+
+# target to generate assembly for a file
+SendMail.cpp.s:
+	cd /d C:\Users\younes.benhoumich\Documents\Projects\kl\build\cmake-build-debug-mingw-w64-32bits && $(MAKE) -f src\CMakeFiles\klogger.dir\build.make src/CMakeFiles/klogger.dir/SendMail.cpp.s
+.PHONY : SendMail.cpp.s
+
 Timer.obj: Timer.cpp.obj
 
 .PHONY : Timer.obj
@@ -307,6 +361,12 @@ help:
 	@echo ... KeyConstants.obj
 	@echo ... KeyConstants.i
 	@echo ... KeyConstants.s
+	@echo ... KeyboardHook.obj
+	@echo ... KeyboardHook.i
+	@echo ... KeyboardHook.s
+	@echo ... SendMail.obj
+	@echo ... SendMail.i
+	@echo ... SendMail.s
 	@echo ... Timer.obj
 	@echo ... Timer.i
 	@echo ... Timer.s

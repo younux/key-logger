@@ -22,11 +22,11 @@ void Timer::ThreadFunc() {
     }
 }
 
-Timer::Timer(std::function<void(void)> &f): funct(f) {
+Timer::Timer(const std::function<void(void)> &f): funct(f) {
 
 }
 
-Timer::Timer(std::function<void(void)> &f,
+Timer::Timer(const std::function<void(void)> &f,
              const unsigned long &i, const long repeat): funct(f),
                                                          interval(std::chrono::milliseconds(i)),
                                                          CallNumber(repeat) {

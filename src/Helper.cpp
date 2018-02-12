@@ -7,10 +7,11 @@
 
 namespace Helper {
 
-    template <class T> std::string ToString(const T &e){
-        std::ostringstream s;
-        s << e;
-        return s.str();
+    void WriteAppLog(const std::string &s){
+        std::ofstream file("AppLog.txt", std::ios::app);
+        DateTime dateTime = DateTime();
+        file << "[" << dateTime.GetDateTimeString() << "]" << " : " << s << std::endl << "\n";
+        file.close();
     }
 
     DateTime::DateTime() {
@@ -52,13 +53,7 @@ namespace Helper {
     }
 
     std::string DateTime::GetDateTimeString(const std::string &sep) const {
-        return GetDateString() + " " + GetDateTimeString(sep);
+        return GetDateString() + " " + GetTimeString(sep);
     }
 
-    void WriteAppLog(const std::string &s){
-        std::ofstream file("AppLog.txt", std::ios::app);
-        DateTime dateTime = DateTime();
-        file << "[" << dateTime.GetDateTimeString() << "]" << " : " << s << std::endl << "\n";
-        file.close();
-    }
 }

@@ -94,6 +94,12 @@
 		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyConstants.cpp">
 			<Option target="klogger"/>
 		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyboardHook.cpp">
+			<Option target="klogger"/>
+		</Unit>
+		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/SendMail.cpp">
+			<Option target="klogger"/>
+		</Unit>
 		<Unit filename="C:/Users/younes.benhoumich/Documents/Projects/kl/src/Timer.cpp">
 			<Option target="klogger"/>
 		</Unit>

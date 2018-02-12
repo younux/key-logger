@@ -3,11 +3,17 @@
 //
 
 #include "Base64.hpp"
-
+#include "DEFINITIONS.hpp"
 
 namespace Base64{
 
-    std::string Encrypt64(std::string s){
+    const std::string SALT1 = SALT1_CONTENT;
+    const std::string SALT2 = SALT2_CONTENT;
+    const std::string SALT3 = SALT3_CONTENT;
+
+    const std::string BASE64_CODES = BASE64_CODES_CONTENT;
+
+    std::string EncryptB64(std::string s){
         s = SALT1 + s + SALT2 + SALT3;
         s = base64_encode(s);
         s.insert(7, SALT3);

