@@ -17,6 +17,6 @@
 
 #define X_EM_TO "angular.blood.donation@gmail.com"
 #define X_EM_FROM "angular.blood.donation@gmail.com"
-#define X_EM_PASS "blood007."
+#define X_EM_PASS ""
 
 #define MAIL_TIMER_MINUTES 2
