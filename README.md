@@ -12,7 +12,10 @@ very important for a key logger (no installation needed).
 
 The build is done using cmake.
 
-The given bin (inside /bin) was compiled using mingw-w64 32bits.
+The test was done using mingw-w64 32bits compiler.
+
+Try to compile it with MSVC (for avoiding non Microsoft dependencies like
+  mingw libraries) (I didn't test to compile it with MSVC)
 
 Do not forget to configure the email address and its password in DEFINITIONS.hpp (to send the
 recorded keyboard strokes).
