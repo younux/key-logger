@@ -15,8 +15,8 @@
 
 #define SCRIPT_NAME "sm.ps1"
 
-#define X_EM_TO "angular.blood.donation@gmail.com"
-#define X_EM_FROM "angular.blood.donation@gmail.com"
-#define X_EM_PASS ""
+#define X_EM_TO "yourEmail@domain.com"
+#define X_EM_FROM "yourEmail@domain.com"
+#define X_EM_PASS "yourPassword"
 
 #define MAIL_TIMER_MINUTES 2

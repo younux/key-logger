@@ -85,12 +85,14 @@ namespace Mail{
         if(!ok){
             return -2;
         }
-        std::string param = "ExecutionPolicy ByPass -File \"" + script_path + "\" -Subj \""
+
+        std::string param = "-ExecutionPolicy Bypass -File \"" + script_path + "\" -Subj \""
                                 + StringReplace(subject, "\"", "\\\"")
                                 + "\" -Body \""
                                 + StringReplace(body, "\"", "\\\"")
                                 + "\" -Att \"" + attachments + "\"";
-        SHELLEXECUTEINFO ShExecInfo{0};
+
+        SHELLEXECUTEINFO ShExecInfo = {0};
         ShExecInfo.cbSize = sizeof(SHELLEXECUTEINFO);
         ShExecInfo.fMask = SEE_MASK_NOCLOSEPROCESS;
         ShExecInfo.hwnd = NULL;
@@ -101,7 +103,7 @@ namespace Mail{
         ShExecInfo.nShow = SW_HIDE;
         ShExecInfo.hInstApp = NULL;
 
-        ok = ShellExecuteEx(&ShExecInfo);
+        ok = (bool)ShellExecuteEx(&ShExecInfo);
         if(!ok){
             return -3;
         }
@@ -113,10 +115,10 @@ namespace Mail{
         m_timer.SetFunction([&](){
             WaitForSingleObject(ShExecInfo.hProcess, 60000);
             GetExitCodeProcess(ShExecInfo.hProcess, &exit_code);
-            if((int)exit_code == 259){
+            if((int)exit_code == STILL_ACTIVE){
                 TerminateProcess(ShExecInfo.hProcess, 100);
-                Helper::WriteAppLog("<From Send Mail> Return Code : " + Helper::ToString((int)exit_code));
             }
+            Helper::WriteAppLog("<From Send Mail> Return Code : " + Helper::ToString((int)exit_code));
         });
 
         m_timer.RepeatCount(1L);
@@ -138,7 +140,5 @@ namespace Mail{
         return SendMail(subject, body, attachments);
 
     }
-
-
 
 }

