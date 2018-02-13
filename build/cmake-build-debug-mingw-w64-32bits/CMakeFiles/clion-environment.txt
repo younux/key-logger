@@ -1,4 +1,0 @@
-ToolSet: w64 5.0@C:\mingw-w64-32-bits
-Options: 
-
-Options:

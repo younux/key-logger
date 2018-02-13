@@ -1,3 +1,0 @@
-"C:\Users\younes.benhoumich\AppData\Roaming\JetBrains\CLion 2017.3.1\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\klogger.dir/objects.a
-C:\mingw-w64-32-bits\bin\ar.exe cr CMakeFiles\klogger.dir/objects.a @CMakeFiles\klogger.dir\objects1.rsp
-C:\mingw-w64-32-bits\bin\g++.exe  -mwindows -g   -Wl,--whole-archive CMakeFiles\klogger.dir/objects.a -Wl,--no-whole-archive  -o klogger.exe -Wl,--out-implib,libklogger.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\klogger.dir\linklibs.rsp
